@@ -1,6 +1,6 @@
 # Investment
 
-The basket module creates an object that holds each commodity and the corresponding shares owned.
+The basket module creates an object that holds each commodity and the corresponding shares owned. My basket consists of exchange-traded funds(ETFs) that aim to provide investors with exposure to the price of Gold, Oil, and Corn without having to physically own and store the commodity.
 The dataloader module, that loads, merges my data and performs some feature engineering.
 The model module contains an SVM regressor model for predicting each ETF's close value. Each commodity utilises a different model instance. In order to model the market sentiment and some macroeconomic factors, my predictors are:
 
